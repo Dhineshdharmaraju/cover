@@ -125,7 +125,7 @@ h1 {
 .quote-box {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 10px;
-    border-left: 3px solid #fff;
+    border-left: 3px solid white;
     margin-bottom: 20px;
     font-style: italic;
     font-size: 11px;
@@ -135,6 +135,7 @@ h1 {
     background-color: #4b0082;
     padding: 10px;
     border-radius: 5px;
+    display: flex;
 }
 
 .author-name {
@@ -146,12 +147,14 @@ h1 {
     height: auto;
     max-width: 100%;
     object-fit: cover;
-    display: block;
+    display: flex;
     border-radius: 4px;
 }
 .author-bio {
     font-size: 10px;
     line-height: 1.3;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
@@ -168,12 +171,17 @@ h1 {
     font-weight: bold;
     color: #ffeb3b;
 }
+.author-info{
+    margin-left: 7;
+}
+
+
 
 
 ```
 
 ## OUTPUT:
-![alt text](<dhinesh/coverapp/static/Screenshot (36).png>)
+![alt text](<dhinesh/coverapp/static/Screenshot (37).png>)
 
 ## RESULT:
 The program for designing book back cover page using HTML and CSS is completed successfully.
